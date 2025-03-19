@@ -13,7 +13,7 @@ public class CryptoUtils {
     // AES settings (we'll use CBC mode with PKCS5Padding)
     public static final String AES_ALGORITHM = "AES/CBC/PKCS5Padding";
     // For AES, we need an IV (initialization vector)
-    // In a real-world app, generate a random IV for each encryption and send it along with the message.
+  
     public static final byte[] FIXED_IV = "RandomInitVector".getBytes(); // 16 bytes
 
     // Generate an RSA key pair (2048-bit)
