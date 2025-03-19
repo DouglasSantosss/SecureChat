@@ -7,7 +7,7 @@ import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
 
-// Import your cryptographic utilities (make sure you have CryptoUtils.java implemented as shown earlier)
+// Import cryptographic utilities
  
 public class ChatClientGUI {
     private JFrame frame;
