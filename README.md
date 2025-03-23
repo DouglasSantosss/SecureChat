@@ -26,11 +26,9 @@ This project is a Java-based secure chat application that implements end-to-end 
 ## How to Run
 
 ### Prerequisites
-- Ensure that the port configured in `ChatServer.java` (default: 5000) is free.
+- Ensure that the port configured in `ChatServer.java` (default: 5000) 
 
 ### Steps
 
 1. Compile the Code:
-   Navigate to the project directory (e.g., the `src/` folder) and compile the Java files:
-   bash
    javac CryptoUtils.java ChatServer.java ChatClientGUI.java
